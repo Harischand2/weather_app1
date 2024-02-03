@@ -4,6 +4,8 @@
     <title>Weather Forecast</title>
     <link href="/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+
   </head>
   <body>
     <div class="weather_box">
@@ -12,16 +14,16 @@
         the page but just update it according to the location -->
         <div class="search">
         <span class="search-icon material-symbols-outlined">  search </span>
-        <input class="search-input" type="text"  placeholder="Enter a city"/>
+        <input id="info" class="search-input" type="text"  placeholder="Enter a city">
         </div>
         <!-- <button class="button">Search</button> -->
         <div class="weather_info">
-            <h3 class="Location"></h3>
-            <h3 class="Temperature"></h3>
-            <h3 class="Description"></h3>
+            <h3 id="CityName"></h3>
+            <h3 id="Temperature"></h3>
+            <h3 id="Description"></h3>
         </div>
 
     </div>
-
+    <script src="index.js"></script>
   </body>
 </html>
